@@ -2,13 +2,17 @@ import { useState } from "react";
 
 function App() {
 
-  let [counter,setCounter] = useState(6)    // [variable,function]
-
-  // let counter = 5
+  let [counter,setCounter] = useState(6)    // [variable,function] = useState(default)
 
   const addValue = () =>{
     if(counter <10){
       setCounter(counter+1)
+      setCounter(counter+1)     // only one time execute
+
+      // now update 
+      setCounter(prevCounter => prevCounter + 1)    // callback 
+      setCounter(prevCounter => prevCounter + 1)
+
     }else{
       alert("Not more than 10")
     }
