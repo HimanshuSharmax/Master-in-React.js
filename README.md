@@ -11,7 +11,7 @@ React is a JavaScript library for building user interfaces.
  # Getting Started: 🚀
 1. Clone this repository:
 ```
-gh repo clone HimanshuSharmax/Master-in-React.js
+gh repo clone https://github.com/HimanshuSharmax/Master-in-React.js
 ```
 
 2. Install dependencies: 
