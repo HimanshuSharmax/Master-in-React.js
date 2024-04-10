@@ -13,9 +13,15 @@ React is a JavaScript library for building user interfaces.
 npm install
 ```
 
-# Usage
+# Usage:
 Once you've installed the project, you can run it locally with the following command
 
 ```
 npm run dev
 ```
+
+# Additional Resources:
+- <a href="https://react.dev/blog/2023/03/16/introducing-react-dev">Official React Documentation</a>
+
+Happy coding! 🚀
+
